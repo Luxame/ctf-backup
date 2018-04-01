@@ -219,3 +219,75 @@ MyFirstSecurity資安工程師在攻擊事件現場側錄到遺留有犯罪的�
 **File**
 
 /web/index.html
+
+## Crytpo : From classical to modern
+
+- 我愛凱薩
+
+**說明：**
+
+凱撒密碼(Caesar cipher)將加密前的字串按照一定的數目向左或向右移動，替換出來的字串就成為密文。這是古典密碼最知名的加密方式也是破密分析第一堂課。
+
+請破解以下凱薩密碼:
+
+TfMpyzaJAM{PcrHMREJZErVwHuUwFYH}
+
+提示1:答案格式 : MyFirstCTF{xxxxxxxxxxx}
+
+提示2:線上資源或是使用python都可以快速解出答案
+
+提示3:嘗試看看brute force解題
+
+- Transposition ciphers
+
+**說明：**
+
+資安人員在InsecureBank做資安健檢，發現某台電腦存在可疑的程式在深夜固定時間都會送出一些特定封包給特定IP，顯示似乎已遭到駭客植入木馬。在網路封包中經常發現底下附件的通關密語，內容看似亂碼又似乎有規則性，聰明的你能分辯出正確的訊息嗎?
+
+提示1 : 答案格式 : MyFirstCTF{xxxxxxxxxxx}
+
+提示2 : 答案格式本身就是提示
+
+**File**
+
+/crytpo/Transposition_ciphers.txt
+
+- MyFirstRSA
+
+**說明：**
+
+RSA加密演算法是著名的非對稱加密演算法，在電子商業中RSA加密被廣泛使用。資安人員在某間公司發現他們的產品使用RSA加密技術時，RSA某些參數設計不夠嚴謹很容易被破解。
+
+這是你的第一堂RSA破密分析作業。聰明的你能解出明文嗎?
+
+提示1 :請參看維基百科RSA加密演算法的說明 :
+
+https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+
+當然你可以點選中文解說
+
+提示2：n很小可以先分解出p和q質數。你可以善用線上資源解質因數分解。　
+
+提示3：解出來的明文必須是MyFirstCTF{xxxxxxxxxxx}答案格式。
+
+**File**
+
+/crytpo/RSA.txt
+
+- XOR_Cipher
+
+**說明：**
+
+對稱式密碼中常用xor運算，廷廷宣稱他把一支程式用xor加密了，誰都打不開。
+
+你應該可以證明他錯了!
+
+提示1:你應該清楚xor運算的特色 ，請參看維基百科的說明:https://en.wikipedia.org/wiki/Exclusive_or
+
+當然你可以點選中文解說
+
+提示2:你必須要先算出解密用的key。
+
+**File**
+
+/crytpo/Encrypted
