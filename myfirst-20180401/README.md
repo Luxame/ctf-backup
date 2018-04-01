@@ -120,3 +120,68 @@ nc 140.110.112.29 2117
 
 /binary/memo_manager
 /binary/libc.so.6
+
+
+## Misc : From PPC to Forensics
+
+- Ascii
+
+**說明：**
+
+ASCII(American Standard Code for Information Interchange)全名為美國資訊交換標準代碼，是基於拉丁字母的電腦編碼，前期主要用於表示現代英文，擴展版本後甚至支援其他部分西歐語言。
+
+最著名的就是Ascii Table，請對照Ascii Table解碼下列十進位資料:
+
+77 121 70 105 114 115 116 67 84 70 123 90 50 79 97 115 54 55 65 69 54 68 117 65 51 73 50 112 56 69 53 125
+
+- Secrets in PDF
+
+**說明：**
+
+第一線資安工程師在攻擊事件現場蒐集到犯罪所遺留的文件，身為鑑識專家的你請協助我們完成找出隱藏在資料裡的資料。
+
+**File**
+
+/misc/Secret.pdf
+
+- Secret of Metadata
+
+**說明：**
+
+這是一張可疑圖片，身為鑑識專家的你請協助我們完成者找出隱藏在圖片裡的資料。
+
+**File**
+
+/misc/Meta_pic.jpg
+
+- Secret images in pictures
+
+**說明：**
+
+另一張可疑圖片。
+
+身為鑑識專家的你，發現圖片大小異常，很可能還藏著另一張圖片，請協助我們完成者找出隱藏在圖片裡的圖片。
+
+提示1 : 你如何知道圖片藏有圖片??
+
+提示2 : dd是一個linux平台上好用的工具，可以幫助你解題。
+
+**File**
+
+/misc/Secret_pic.png
+
+- Sniffering
+
+**說明：**
+
+Insecurity 銀行的遠端連線伺服器發現遭受到駭客植入木馬，銀行的資安人員通知MyFirstSecurity資安技術服務工程師到場進行蒐證。
+
+MyFirstSecurity資安技術服務工程師在現場收集網路封包後，建議Insecurity銀行採用安全的遠端連線。
+
+請你找出網路封包中的flag。
+
+提示1: 遠端連線使用的協定中使用明文傳輸容易遭致網路竊聽
+
+**File**
+
+/misc/Broken_session.pcap
