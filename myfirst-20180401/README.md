@@ -200,3 +200,22 @@ MyFirstSecurity資安工程師在攻擊事件現場側錄到遺留有犯罪的�
 **File**
 
 /misc/File_transfer.pcap
+
+
+## Web : From OWASP to TOP10
+
+- Developer Tools
+
+**說明：**
+
+資安人員在某公司的網站上發現網站開發人員因為方便開發，而將重要資訊列在前端程式碼中，你能快速的找到這致命的錯誤嗎?
+
+提示1: MyFirstCTF{xxxxxxxxxxx}
+
+提示2: 你清楚知道 base64 編碼與解碼的原理嗎?
+
+參看[維基百科](https://zh.wikipedia.org/wiki/Base64)
+
+**File**
+
+/web/index.html
